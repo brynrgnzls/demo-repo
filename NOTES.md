@@ -9,8 +9,6 @@ git status
 git add
   - add files to be committed
 
-git this shit will be a confilt and should be added to the main at line 12
-
 git commit
   - save code locally 
   - adds a description using the '-m' flag
@@ -22,8 +20,6 @@ git push |origin| [branch]
 git remote add origin [origin]
   - adds a reference to a remote repository
 
-another functing conflic
-
 git branh
   - show the list of branch and current branch 
 
@@ -34,9 +30,18 @@ git branch [name]
 
 git checkout [name]
   - changes branch
-  
+
 git checkout -b [name] 
   - crates a branch and changes to that branch
 
 git branch -d [name]
   - deletes a local branch
+
+git reset [name]
+  - unstage a file or all of files using
+
+git reset HEAD~[number]
+  - undo the commit by a number
+
+git rest [hash]
+  - undo the commit or move to a spefied commit using hash from 'git log'
