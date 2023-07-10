@@ -30,7 +30,7 @@ git branch [name]
 
 git checkout [name]
   - changes branch
-
+  
 git checkout -b [name] 
   - crates a branch and changes to that branch
 
