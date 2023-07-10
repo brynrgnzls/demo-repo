@@ -1,1 +1,2 @@
 Hello
+Added a text at line 2
