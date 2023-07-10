@@ -1,3 +1,5 @@
+Added as a confilcter in the remote repo
+
 git pull
   - synchorized the local repo to the remote repositorty
 
