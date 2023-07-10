@@ -1,3 +1,5 @@
+Added as a confilcter in the remote repo
+
 git pull
   - synchorized the local repo to the remote repositorty
 
@@ -13,7 +15,7 @@ git commit
 
 git push |origin| [branch]
   - pushes the code to a remote repository
-  - origin states the location of the repository
+  - origin states what branch in your local repo to be push
 
 git remote add origin [origin]
   - adds a reference to a remote repository
@@ -32,5 +34,3 @@ git checkout [name]
 git checkout -b [name] 
   - crates a branch and changes to that branch
 
-
-Added on main
