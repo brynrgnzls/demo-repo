@@ -9,6 +9,8 @@ git status
 git add
   - add files to be committed
 
+git this shit will be a confilt and should be added to the main at line 12
+
 git commit
   - save code locally 
   - adds a description using the '-m' flag
@@ -19,6 +21,8 @@ git push |origin| [branch]
 
 git remote add origin [origin]
   - adds a reference to a remote repository
+
+another functing conflic
 
 git branh
   - show the list of branch and current branch 
