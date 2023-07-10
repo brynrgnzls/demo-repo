@@ -47,7 +47,10 @@ git reset [hash]
   - undo the commit or move to a spefied commit using hash from 'git log'
 
 git add -p [name]
-  - 
+  - adds a stage on a patch level (portion of code)
+
+git merge --abort 
+  - aborts a merge
 
 
 NOTE:
@@ -57,3 +60,6 @@ NOTE:
         => What is different from before
         => What's the reason for the change
         => Anything to watch out for / anything particularly remarkable
+
+  Merge Conflict
+    - occurs when code is integrated from different source
