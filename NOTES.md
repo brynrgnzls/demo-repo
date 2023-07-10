@@ -32,4 +32,3 @@ git checkout [name]
 git checkout -b [name] 
   - crates a branch and changes to that branch
 
-
