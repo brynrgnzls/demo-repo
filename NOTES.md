@@ -35,3 +35,5 @@ git checkout [name]
 git checkout -b [name] 
   - crates a branch and changes to that branch
 
+git branch -d [name]
+  - deletes a local branch
