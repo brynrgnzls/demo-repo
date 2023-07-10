@@ -1,6 +1,6 @@
 Added as a confilcter in the remote repo
 
-git pull
+git pull// bro this is in a local repo
   - synchorized the local repo to the remote repositorty
 
 git status
