@@ -1,5 +1,6 @@
 Added as a confilcter in the remote repo
 
+This shit is added again
 git pull
   - synchorized the local repo to the remote repositorty
 
