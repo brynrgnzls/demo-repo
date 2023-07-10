@@ -40,8 +40,17 @@ git branch -d [name]
 git reset [name]
   - unstage a file or all of files using
 
-git reset HEAD~[number]
+git reset HEAD@{[number]}
   - undo the commit by a number
 
-git rest [hash]
+git reset [hash]
   - undo the commit or move to a spefied commit using hash from 'git log'
+
+
+NOTE:
+  Perfect Commit Mesage
+    - Subject: consice summary of what happened
+    - Body:
+        => What is different from before
+        => What's the reason for the change
+        => Anything to watch out for / anything particularly remarkable
