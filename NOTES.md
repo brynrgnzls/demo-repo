@@ -57,3 +57,6 @@ NOTE:
         => What is different from before
         => What's the reason for the change
         => Anything to watch out for / anything particularly remarkable
+
+  Merge Conflict
+    - occurs when code is integrated from different source
