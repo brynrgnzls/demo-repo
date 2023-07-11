@@ -58,6 +58,14 @@ git mergetool
 git push origin [branch1]:[branch2]
   - pushes current branch1 to a remote branch2
 
+git fetch [remote] [branch name]
+  - retrieves data changes from the remote repository
+  - retrieves commits
+  - does not change code
+
+git rebase -i HEAD~[number]
+
+
 NOTE:
   Perfect Commit Mesage
     - Subject: consice summary of what happened
@@ -75,3 +83,25 @@ NOTE:
     - git merge only adds same files
     - git pull adds every file
     - git push pushes and removes files to an accepting branch
+
+
+NOTE:
+  Rebase
+      - one of two utilities in git that integrates changes from one to another
+      - process of combining or moving a secquence of commits on top of a new base commit
+      - linear process of merging
+
+NOTE: 
+  Merge vs Rebase
+    - Merge looks for three commits to merge:
+        => common anecestor of branch A and branch B
+        => latest branch of branch A
+        => latest branch of branch B
+    - if branch  branch B has no relation to the latest commit of branch A a merge commit will be added with annotation
+    
+    - Rebase is the process of integrating changes specifically in the common ancestor of Branch A and Branch B in which the latter commits will be appended after the commits of Branch B thus rebasing it
+    - Able to merge delete, edit, move, merge commits
+
+  NOTE:
+    Cherry Pick
+      - Process of integrating a commit instead a whole branch to another 
