@@ -9,8 +9,6 @@ git status
 git add
   - add files to be committed
 
-git this shit will be a confilt and should be added to the main at line 12
-
 git commit
   - save code locally 
   - adds a description using the '-m' flag
@@ -22,8 +20,6 @@ git push |origin| [branch]
 git remote add origin [origin]
   - adds a reference to a remote repository
 
-another functing conflic
-
 git branh
   - show the list of branch and current branch 
 
@@ -34,9 +30,42 @@ git branch [name]
 
 git checkout [name]
   - changes branch
-  
+
 git checkout -b [name] 
   - crates a branch and changes to that branch
 
 git branch -d [name]
   - deletes a local branch
+
+git reset [name]
+  - unstage a file or all of files using
+
+git reset HEAD@{[number]}
+  - undo the commit by a number
+
+git reset [hash]
+  - undo the commit or move to a spefied commit using hash from 'git log'
+
+git add -p [name]
+  - adds a stage on a patch level (portion of code)
+
+git merge --abort 
+  - aborts a merge
+
+git mergetool
+  - opens up a visual code conflict resolver
+
+git push origin [branch1]:[branch2]
+  - pushes current branch1 to a remote branch2
+
+NOTE:
+  Perfect Commit Mesage
+    - Subject: consice summary of what happened
+    - Body:
+        => What is different from before
+        => What's the reason for the change
+        => Anything to watch out for / anything particularly remarkable
+
+  Merge Conflict
+    - occurs when code is integrated from different source
+    - 
