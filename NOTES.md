@@ -52,6 +52,11 @@ git add -p [name]
 git merge --abort 
   - aborts a merge
 
+git mergetool
+  - opens up a visual code conflict resolver
+
+git push origin [branch1]:[branch2]
+  - pushes current branch1 to a remote branch2
 
 NOTE:
   Perfect Commit Mesage
@@ -63,3 +68,4 @@ NOTE:
 
   Merge Conflict
     - occurs when code is integrated from different source
+    - 
