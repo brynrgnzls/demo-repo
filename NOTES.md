@@ -71,6 +71,7 @@ NOTE:
   
 
 NOTE:
-  merge vs pull
+  merge vs pull vs push
     - git merge only adds same files
     - git pull adds every file
+    - git push pushes and removes files to an accepting branch
