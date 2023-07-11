@@ -68,4 +68,9 @@ NOTE:
 
   Merge Conflict
     - occurs when code is integrated from different source
-    - 
+  
+
+NOTE:
+  merge vs pull
+    - git merge only adds same files
+    - git pull adds every file
