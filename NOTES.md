@@ -75,3 +75,10 @@ NOTE:
     - git merge only adds same files
     - git pull adds every file
     - git push pushes and removes files to an accepting branch
+
+
+NOTE:
+  Rebase
+      - one of two utilities in git that integrates changes from one to another
+      - process of combining or moving a secquence of commits on top of a new base commit
+      - linear process of merging
