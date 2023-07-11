@@ -1,8 +1,0 @@
-Hello
-Added a text at line 2
-hello
-hello
-hello
-hello
-hello
-from line 8
